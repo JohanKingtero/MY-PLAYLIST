@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="play.css" rel="stylesheet" type="text/css" />
+  <title> My PlayList</title>
+</head>
+
+<body>
+  <div class="player">
+    <div class="player__header">
+      <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+        <button class="player__button player__button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+        <div class="slider__content">
+          <img class="img slider__img" src="/imagenes/badBunny.jpg" alt="cover">
+          <img class="img slider__img" src="/imagenes/Blessd-cantante-del-genero-urbano.jpg" alt="cover">
+          <img class="img slider__img" src="/imagenes/canserbero.jpg" alt="cover">
+          <img class="img slider__img" src="/imagenes/feid.png" alt="cover">
+          <img class="img slider__img" src="/imagenes/KarolG.jpg"  alt="cover">
+          <img class="img slider__img" src="/imagenes/plan-b.png" alt="cover">
+          <img class="img slider__img" src="/imagenes/ryan castro.jpg" alt="cover">
+        </div>
+      </div>
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        <p class="player__context slider__context">
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+        <div class="progres">
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="player__playlist list">
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/badBunny.jpg" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">TITI ME PREGUNTO</b>
+          <span class="flex">
+            <span class="player__title">BAD BUNNY</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - Bad Bunny  Tití Me Preguntó Video Oficial  Un Verano Sin Ti.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/Blessd-cantante-del-genero-urbano.jpg" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">OJOS AZULES</b>
+          <span class="flex">
+            <span class="player__title"> BLESSED FT PESO PLUMA</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - BLESSD  PESO PLUMA  SOG   OJOS AZULES  VIDEO OFICIAL .mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/canserbero.jpg" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">STUPID LOVE STORY</b>
+          <span class="flex">
+            <span class="player__title">canserbero</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - Canserbero  Stupid Love Story Apa y Can.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/feid.png" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">CHORRITO PA LAS ANIMAS</b>
+          <span class="flex">
+            <span class="player__title"> FERXXO</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - Feid  CHORRITO PA LAS ANIMAS Official Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/KarolG.jpg" alt="cover">
+        <p class="player__context ">
+          <b class="player__song-name">Amargura</b>
+          <span class="flex">
+            <span class="player__title">KarolG</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - KAROL G Shakira  TQG Official Video.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/plan-b.png" alt="cover">
+        <p class="player__context"> 
+          <b class="player__song-name">ES UN SECRETO</b>
+          <span class="flex">
+            <span class="player__title">PLAN B</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/y2mate.com - Plan B  Es Un Secreto.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="/imagenes/ryan castro.jpg"alt="cover">
+        <p class="player__context ">
+          <b class="player__song-name">QUEMA</b>
+          <span class="flex">
+            <span class="player__title">RYAN CASTRO FT PESO PLUMA</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="/audio/y2mate.com - Ryan Castro Peso Pluma  QUEMA  Video Oficial (1).mp3"></audio>
+      </li>
+    </ul>
+  </div>
+  <script src="/play.js"></script>
+</body>
+
+</html>
