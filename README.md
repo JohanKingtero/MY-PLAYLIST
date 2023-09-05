@@ -1,4 +1,4 @@
-# Playlist-kpop
+# Playlist
 Este código de JavaScript tiene como objetivo controlar un reproductor de música en una página web. A continuación, te explicaré paso a paso cómo funciona:
 1. En la primera línea, se utiliza la directiva `"use strict"` para asegurar un código más limpio y evitar errores comunes.
 2. 2. Se declaran algunas variables constantes para almacenar elementos del DOM, como los botones de reproducción, avance y retroceso, la lista de reproducción, etc.
